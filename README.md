@@ -12,4 +12,4 @@ features
 - Mark the task as completed using the checkbox
 - Edit or delete the task based on the icon clicked
 - Clear all the tasks on click of CLEAR ALL button
-- Data stored on local storage and are task box is filled using the stored data
+- Data stored on local storage and task box is filled using the stored data
