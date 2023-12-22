@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>ToDo App</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container flex">
+      <h1>TO DO App</h1>
+      <div class="todo-app flex">
+        <div class="todo-input flex">
+          <input type="text" id="input" placeholder="Add a task " />
+          <button onclick="addTask()" class="btn">Add</button>
+        </div>
+        <div class="output flex">
+          <div class="controls flex">
+            <div class="filters">
+              <span id="all" class="active"> All </span>
+              <span id="pending">Pending</span>
+              <span id="completed">Completed</span>
+            </div>
+            <button class="clear-btn">Clear All</button>
+          </div>
+          <ul class="task-box"></ul>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/5bf1bd80aa.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js" async defer></script>
+  </body>
+</html>
