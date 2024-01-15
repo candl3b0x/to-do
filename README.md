@@ -13,3 +13,5 @@ features
 - Edit or delete the task based on the icon clicked
 - Clear all the tasks on click of CLEAR ALL button
 - Data stored on local storage and task box is filled using the stored data
+- Live Demo
+   https://candl3b0x.github.io/to-do/
